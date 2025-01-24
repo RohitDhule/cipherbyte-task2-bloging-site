@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSphere</title>
+  <link rel="stylesheet" href="BlogPlatform.css">
+</head>
+<body>
+  <header class="header">
+    <h1>BlogSphere</h1>
+    <p>Your space to express and explore</p>
+  </header>
+
+  <main class="main-content">
+    <section class="create-post">
+      <h2>Create a New Blog Post</h2>
+      <form id="postForm">
+        <input type="text" id="postTitle" placeholder="Enter post title" required />
+        <textarea id="postContent" placeholder="Write your post content here..." required></textarea>
+        <button type="submit">Publish</button>
+      </form>
+    </section>
+
+    <section class="blog-posts">
+      <h2>Blog Posts</h2>
+      <div id="postsContainer"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 BlogSphere. All rights reserved.</p>
+  </footer>
+
+  <script src="BlogPlatform.js"></script>
+</body>
+</html>
